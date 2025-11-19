@@ -1,4 +1,4 @@
-.class public final Lio/github/heyylucazzz/imnotadeveloper/xposed/Main;
+.class public final Lio/github/zummarcello/imnotadeveloper/xposed/Main;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -32,13 +32,13 @@
     new-instance v3, Lde/robv/android/xposed/XSharedPreferences;
 
     .line 9
-    const-string v4, "io.github.heyylucazzz.imnotadeveloper"
+    const-string v4, "io.github.zummarcello.imnotadeveloper"
 
     .line 11
     invoke-direct {v3, v4}, Lde/robv/android/xposed/XSharedPreferences;-><init>(Ljava/lang/String;)V
 
     .line 14
-    iput-object v3, p0, Lio/github/heyylucazzz/imnotadeveloper/xposed/Main;->a:Lde/robv/android/xposed/XSharedPreferences;
+    iput-object v3, p0, Lio/github/zummarcello/imnotadeveloper/xposed/Main;->a:Lde/robv/android/xposed/XSharedPreferences;
 
     .line 16
     new-instance v3, Lc/b;
@@ -169,13 +169,13 @@
 
     .line 98
     :cond_61
-    iput-object v3, p0, Lio/github/heyylucazzz/imnotadeveloper/xposed/Main;->b:Ljava/util/LinkedHashMap;
+    iput-object v3, p0, Lio/github/zummarcello/imnotadeveloper/xposed/Main;->b:Ljava/util/LinkedHashMap;
 
     .line 100
     return-void
 .end method
 
-.method public static final a(Lio/github/heyylucazzz/imnotadeveloper/xposed/Main;Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V
+.method public static final a(Lio/github/zummarcello/imnotadeveloper/xposed/Main;Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V
     .registers 19
 
     move-object/from16 v0, p1
@@ -448,7 +448,7 @@
     return-void
 .end method
 
-.method public static final b(Lio/github/heyylucazzz/imnotadeveloper/xposed/Main;Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)Ljava/lang/Object;
+.method public static final b(Lio/github/zummarcello/imnotadeveloper/xposed/Main;Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)Ljava/lang/Object;
     .registers 3
 
     .line 1
@@ -479,7 +479,7 @@
     .registers 4
 
     .line 1
-    iget-object v0, p0, Lio/github/heyylucazzz/imnotadeveloper/xposed/Main;->a:Lde/robv/android/xposed/XSharedPreferences;
+    iget-object v0, p0, Lio/github/zummarcello/imnotadeveloper/xposed/Main;->a:Lde/robv/android/xposed/XSharedPreferences;
 
     .line 3
     invoke-virtual {v0}, Lde/robv/android/xposed/XSharedPreferences;->reload()V
@@ -517,7 +517,7 @@
 
     const-string v3, "hide_developer_mode"
 
-    invoke-virtual {p0, v3}, Lio/github/heyylucazzz/imnotadeveloper/xposed/Main;->c(Ljava/lang/String;)Z
+    invoke-virtual {p0, v3}, Lio/github/zummarcello/imnotadeveloper/xposed/Main;->c(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -530,7 +530,7 @@
     :cond_1e
     const-string v3, "hide_usb_debug"
 
-    invoke-virtual {p0, v3}, Lio/github/heyylucazzz/imnotadeveloper/xposed/Main;->c(Ljava/lang/String;)Z
+    invoke-virtual {p0, v3}, Lio/github/zummarcello/imnotadeveloper/xposed/Main;->c(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -543,7 +543,7 @@
     :cond_2b
     const-string v3, "hide_wireless_debug"
 
-    invoke-virtual {p0, v3}, Lio/github/heyylucazzz/imnotadeveloper/xposed/Main;->c(Ljava/lang/String;)Z
+    invoke-virtual {p0, v3}, Lio/github/zummarcello/imnotadeveloper/xposed/Main;->c(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -592,7 +592,7 @@
 
     new-instance v8, Lb/b;
 
-    invoke-direct {v8, p0, v2}, Lb/b;-><init>(Lio/github/heyylucazzz/imnotadeveloper/xposed/Main;Ljava/util/ArrayList;)V
+    invoke-direct {v8, p0, v2}, Lb/b;-><init>(Lio/github/zummarcello/imnotadeveloper/xposed/Main;Ljava/util/ArrayList;)V
 
     const-string v9, "getStringForUser"
 
@@ -612,7 +612,7 @@
     .line 3
     const-string v2, "hide_debug_properties"
 
-    invoke-virtual {p0, v2}, Lio/github/heyylucazzz/imnotadeveloper/xposed/Main;->c(Ljava/lang/String;)Z
+    invoke-virtual {p0, v2}, Lio/github/zummarcello/imnotadeveloper/xposed/Main;->c(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -646,7 +646,7 @@
 
     new-instance v7, Lb/c;
 
-    invoke-direct {v7, p0}, Lb/c;-><init>(Lio/github/heyylucazzz/imnotadeveloper/xposed/Main;)V
+    invoke-direct {v7, p0}, Lb/c;-><init>(Lio/github/zummarcello/imnotadeveloper/xposed/Main;)V
 
     invoke-static {v0, v6, v7}, Lde/robv/android/xposed/XposedBridge;->hookAllMethods(Ljava/lang/Class;Ljava/lang/String;Lde/robv/android/xposed/XC_MethodHook;)Ljava/util/Set;
 
@@ -662,7 +662,7 @@
     invoke-static {p1, v1}, Lc/a;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
-    invoke-virtual {p0, v2}, Lio/github/heyylucazzz/imnotadeveloper/xposed/Main;->c(Ljava/lang/String;)Z
+    invoke-virtual {p0, v2}, Lio/github/zummarcello/imnotadeveloper/xposed/Main;->c(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -673,7 +673,7 @@
     :cond_9e
     new-instance v0, Lb/a;
 
-    invoke-direct {v0, p0}, Lb/a;-><init>(Lio/github/heyylucazzz/imnotadeveloper/xposed/Main;)V
+    invoke-direct {v0, p0}, Lb/a;-><init>(Lio/github/zummarcello/imnotadeveloper/xposed/Main;)V
 
     const-string v1, "java.lang.ProcessImpl"
 
@@ -701,7 +701,7 @@
 
     const-string v0, "hide_debug_properties_in_native"
 
-    invoke-virtual {p0, v0}, Lio/github/heyylucazzz/imnotadeveloper/xposed/Main;->c(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Lio/github/zummarcello/imnotadeveloper/xposed/Main;->c(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -713,11 +713,11 @@
     :try_start_c4
     invoke-static {p1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    sget-object v0, Lio/github/heyylucazzz/imnotadeveloper/xposed/NativeFun;->a:Lio/github/heyylucazzz/imnotadeveloper/xposed/NativeFun;
+    sget-object v0, Lio/github/zummarcello/imnotadeveloper/xposed/NativeFun;->a:Lio/github/zummarcello/imnotadeveloper/xposed/NativeFun;
 
-    iget-object v1, p0, Lio/github/heyylucazzz/imnotadeveloper/xposed/Main;->b:Ljava/util/LinkedHashMap;
+    iget-object v1, p0, Lio/github/zummarcello/imnotadeveloper/xposed/Main;->b:Ljava/util/LinkedHashMap;
 
-    invoke-virtual {v0, v1}, Lio/github/heyylucazzz/imnotadeveloper/xposed/NativeFun;->setProps(Ljava/util/Map;)V
+    invoke-virtual {v0, v1}, Lio/github/zummarcello/imnotadeveloper/xposed/NativeFun;->setProps(Ljava/util/Map;)V
     :try_end_ce
     .catch Ljava/lang/Exception; {:try_start_c4 .. :try_end_ce} :catch_cf
 

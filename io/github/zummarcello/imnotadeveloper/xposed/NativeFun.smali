@@ -1,10 +1,10 @@
-.class public final Lio/github/heyylucazzz/imnotadeveloper/xposed/NativeFun;
+.class public final Lio/github/zummarcello/imnotadeveloper/xposed/NativeFun;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # static fields
-.field public static final a:Lio/github/heyylucazzz/imnotadeveloper/xposed/NativeFun;
+.field public static final a:Lio/github/zummarcello/imnotadeveloper/xposed/NativeFun;
 
 
 # direct methods
@@ -12,13 +12,13 @@
     .registers 1
 
     .line 1
-    new-instance v0, Lio/github/heyylucazzz/imnotadeveloper/xposed/NativeFun;
+    new-instance v0, Lio/github/zummarcello/imnotadeveloper/xposed/NativeFun;
 
     .line 3
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 6
-    sput-object v0, Lio/github/heyylucazzz/imnotadeveloper/xposed/NativeFun;->a:Lio/github/heyylucazzz/imnotadeveloper/xposed/NativeFun;
+    sput-object v0, Lio/github/zummarcello/imnotadeveloper/xposed/NativeFun;->a:Lio/github/zummarcello/imnotadeveloper/xposed/NativeFun;
 
     .line 8
     return-void

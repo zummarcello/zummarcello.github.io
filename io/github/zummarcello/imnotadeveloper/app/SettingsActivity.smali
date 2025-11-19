@@ -1,4 +1,4 @@
-.class public final Lio/github/heyylucazzz/imnotadeveloper/app/SettingsActivity;
+.class public final Lio/github/zummarcello/imnotadeveloper/app/SettingsActivity;
 .super Landroid/app/Activity;
 .source "SourceFile"
 
@@ -22,7 +22,7 @@
     new-instance v0, La/c;
 
     .line 6
-    invoke-direct {v0, p0}, La/c;-><init>(Lio/github/heyylucazzz/imnotadeveloper/app/SettingsActivity;)V
+    invoke-direct {v0, p0}, La/c;-><init>(Lio/github/zummarcello/imnotadeveloper/app/SettingsActivity;)V
 
     .line 9
     new-instance v1, Lc/c;
@@ -31,7 +31,7 @@
     invoke-direct {v1, v0}, Lc/c;-><init>(La/c;)V
 
     .line 14
-    iput-object v1, p0, Lio/github/heyylucazzz/imnotadeveloper/app/SettingsActivity;->a:Lc/c;
+    iput-object v1, p0, Lio/github/zummarcello/imnotadeveloper/app/SettingsActivity;->a:Lc/c;
 
     .line 16
     return-void
@@ -47,7 +47,7 @@
     const/4 p1, 0x1
 
     :try_start_4
-    const-string v0, "io.github.heyylucazzz.imnotadeveloper_preferences"
+    const-string v0, "io.github.zummarcello.imnotadeveloper_preferences"
 
     invoke-virtual {p0, v0, p1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
@@ -82,7 +82,7 @@
     invoke-virtual {v1, p1, p1, p1, p1}, Landroid/view/View;->setPadding(IIII)V
 
     .line 1
-    iget-object p1, p0, Lio/github/heyylucazzz/imnotadeveloper/app/SettingsActivity;->a:Lc/c;
+    iget-object p1, p0, Lio/github/zummarcello/imnotadeveloper/app/SettingsActivity;->a:Lc/c;
 
     invoke-virtual {p1}, Lc/c;->a()Ljava/lang/Object;
 
